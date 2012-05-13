@@ -26,7 +26,7 @@
 					$this.triggerHandler('checkIME.imeoff', {status: status});
 				}
 			}
-			$this.data('data-checkime', status);
+			$this.attr('data-checkime', status);
 			return status;
 		}
 		// bind
